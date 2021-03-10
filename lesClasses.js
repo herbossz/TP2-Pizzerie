@@ -64,8 +64,16 @@ class commande {
         this.heure = heure;
         this.pizza = pizza;
         this.montantTotal= montantTotal;
+
+
+        contructor ( tps, tvq ,tax){
+            this.tps = 5;
+            this.tvq =9.975 ;
+            this.tax = tps * tvq };
     }
+
 }
+
 
 // classe client
 class client {
@@ -78,10 +86,26 @@ class client {
     }
 }
 
+// classe Taille
+
+class taill {
+    constructor (nom,diamettre,facteur){
+        this.nom =nom;
+        this.diamettre=diamettre;
+        this.facteur=facteur;
+    }
+
+}
+
+
+
 // saisir et afficher les informations de la classe clients
 unClient = new client("Alex","Morgan","450299384","pizza@gmail.com",commandeClient ="Moyenne Pizza");
 console.log(unClient)
 //numeroComande =  commande.numeroComande('769')
+
+// classe taille
+unTaille = new taill("peperoni", "12p",2)
 
 //saisi et afffichage de la classe commande
 UneCommande =  new commande("789","10 Fevrier 2021","13:45","moyenne peperoni","36.24 $");
