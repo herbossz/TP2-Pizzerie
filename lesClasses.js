@@ -77,3 +77,13 @@ class client {
         this.commandeClient = commandeClient;
     }
 }
+
+// saisir et afficher les informations de la classe clients
+unClient = new client("Alex","Morgan","450299384","pizza@gmail.com",commandeClient ="Moyenne Pizza");
+console.log(unClient)
+//numeroComande =  commande.numeroComande('769')
+
+//saisi et afffichage de la classe commande
+UneCommande =  new commande("789","10 Fevrier 2021","13:45","moyenne peperoni","36.24 $");
+console.log(UneCommande);
+

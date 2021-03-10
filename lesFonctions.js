@@ -18,6 +18,19 @@ function verifierNumeroDeTelephone (numero)
   
 }
 
+
+console.log("1.  verifierNumeroDeTelephone(numero)")
+console.log("================================================");
+verifierNumeroDeTelephone(numero="923334444");
+console.log("Entrée: " + numero);
+console.log(("Resultat attendue: " + "vrai"));
+console.log( "Nb des caracteres: " + numero.length) ;
+
+console.log("================================================");
+console.log("================================================");
+
+
+
 // 2.  verifierEntier(entier)
 
 function verifierEntier (entier)
@@ -30,6 +43,16 @@ function verifierEntier (entier)
     console.log("Résultat optenu : Faut")
   }
 }
+
+
+console.log("2. VerifierEntier(entier)")
+verifierEntier(entier="-444");
+console.log("Entrée: " + entier);
+console.log(("Resultat attendue: " + "Vrai"));
+
+console.log("================================================");
+console.log("================================================");
+
 
 //3. verifierCodePostal(codePostal)
 console.log("3. verifierCodePostal(codePostal)")
@@ -49,3 +72,6 @@ function verifierCodePostal(codePostal)
           }
 }
 
+console.log(verifierCodePostal(codePostal="j24s4c9"));
+console.log(("Entrée: " + codePostal));
+console.log(("Resultat attendue: " + "Faut"));
